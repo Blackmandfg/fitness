@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: rgba(23, 23, 23, 1);
     box-sizing: border-box;
 
 }
@@ -19,13 +19,23 @@ margin: 20px 50px;
  color: azure;
     font-weight: 400;
     line-height: 15px;
-
+color: rgba(250, 250, 249, 1);
     text-align: left;
-    background-color: black;
+
 ;
 }
 .right{
     display: grid;
+}
+#workout{
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(250, 250, 249, 1);
+
 }
 .section-1{
     width: 1255px;
@@ -108,8 +118,7 @@ color: #FAFAF9;
     background-color: #EF8964;
     position: absolute;
     top: 20px;
-    right: 50px; /* Указываем правый край контейнера */
-     /* Пример ширины изображения */
+    right: 50px;
 
 }
 #number1{
@@ -149,5 +158,94 @@ width: 25px;
     text-align: left;
     color: #EFEDE8A6;
     padding: 25px 0 0 10px;
+}
+.VideTutorial{
+    position: absolute;
+    display: flex;
 
+    width: 205px;
+    height: 96px;
+    top: 60%;
+    left: 55%;
+    border-radius: 10px;
+background-color: rgba(48, 48, 48, 1);
+
+
+}
+#VideoTutorial{
+    background-color: transparent;
+//styleName: body-text;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color:  rgba(239, 237, 232, 0.65)
+}
+.VideoPlay{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    margin: 30px 10px 30px 25px;
+
+}
+#number2{
+    display: flex;
+    background-color: transparent;
+//styleName: h3;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+flex-direction: column;
+margin-bottom: 10px;
+}
+.smallinfo{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin: 20px 25px 20px 0;
+}
+.WorkoutVideo{
+    position: absolute;
+    top: 80%;
+    right: 0%;
+    width: 195px;
+    background-color: rgba(122, 41, 220, 1);
+    border-radius: 10px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+.number3{
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: rgba(250, 250, 249, 1);
+
+}
+.FreeWorkoutVideos{
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: rgba(239, 237, 232, 0.65);
+
+}
+.field{
+    background-color: transparent;
+    margin: 15px 25px 15px 25px;
 }
