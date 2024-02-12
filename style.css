@@ -2,11 +2,14 @@
     padding: 0;
     margin: 0;
     background-color: black;
+    box-sizing: border-box;
+
 }
 .header{
     display: grid;
-    grid-template-columns: 4fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+    grid-template-columns: 4fr 0.3fr 0.3fr 0.5fr 0.2fr 0.3fr 0.3fr;
 margin: 20px 50px;
+
 
 }
 .header > div{
@@ -16,11 +19,135 @@ margin: 20px 50px;
  color: azure;
     font-weight: 400;
     line-height: 15px;
-    letter-spacing: 0em;
+
     text-align: left;
     background-color: black;
 ;
 }
 .right{
     display: grid;
+}
+.section-1{
+    width: 1255px;
+
+    color: white;
+    position: relative;
+    margin: 250px 45px 0 140px ;
+
+}
+#workoutwithme{
+    font-family: "San Francisco", sans-serif;
+    font-size: 172px;
+    font-weight: 800;
+    line-height: 170px;
+    letter-spacing: -2px;
+    text-align: left;
+color: #FAFAF9;
+    width: 880px;
+
+}
+.btnfontsection1{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #E6533C;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 115px;
+
+}
+
+.text-section-1{
+//styleName: body-text;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    width:560px;
+    color: #EFEDE8A6;
+    margin: 50px 0 50px 0;
+
+}
+.LabelforIcons{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #EFEDE8A6;
+    margin-bottom: 35px;
+}
+.icons-section1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+#photo{
+        position: absolute;
+        top: 60px;
+        right: 0; /* Указываем правый край контейнера */
+        width: 450px; /* Пример ширины изображения */
+        height: 100%; /* Заполнение высоты контейнера */
+        /*object-fit: cover; !* Позволяет изображению заполнить всю доступную площадь *!*/
+    background-color: transparent;
+}
+
+.km{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    width: 180px;
+    border-radius: 10px;
+    height: 110px;
+    background-color: #EF8964;
+    position: absolute;
+    top: 20px;
+    right: 50px; /* Указываем правый край контейнера */
+     /* Пример ширины изображения */
+
+}
+#number1{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -5px;
+    text-align: left;
+    background-color: transparent;
+    color: #FAFAF9;
+}
+.spherenumber1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 95px;
+  height: 50px;
+    background-color: transparent;
+    margin: 8px 60px 15px 26px;
+}
+#runman{
+    margin: 15px 130px 0 25px ;
+    background-color: transparent;
+}
+#letters1{
+width: 25px;
+    background-color: transparent;
+//styleName: h5;
+    font-family: "Inter", sans-serif;
+    justify-content: center;
+    align-content: end;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #EFEDE8A6;
+    padding: 25px 0 0 10px;
+
 }
